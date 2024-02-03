@@ -1,19 +1,20 @@
 {
   "basics": {
     "name": "Armando Rosales",
-    "label": "Desarrollador Web",
+    "label": "Desarrollador Web ",
     "image": "https://media.licdn.com/dms/image/D4E03AQFAo_1tpAR35Q/profile-displayphoto-shrink_400_400/0/1703619198939?e=1712188800&v=beta&t=8BZ7b8rcIYTDwg0A8JvJ7F2DANBINPvdLdOJtCQxvpk",
     "email": "Armando_rosalesr@hotmail.com",
     "phone": "667 513 3213",
     "url": "",
     "summary": "En mejora continua, con la visión de entregar productos de calidad.",
+    "about":"Desde pequeño nunca he dejado de preguntarme por qué las cosas funcionan como funcionan. Esta curiosidad me ha llevado a sumergirme en múltiples tópicos con el afán de entender lo que me rodea.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
+      "address": "",
+      "postalCode": "", 
       "city": "Sinaloa",
-      "countryCode": "US",
+      "countryCode": "MEX",
       "region": "México"
-    },
+    },  
     "profiles": [
       {
         "network": "LinkedIn",

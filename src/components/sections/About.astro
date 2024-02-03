@@ -1,6 +1,15 @@
 ---
 import Section from '@/components/Sections.astro'
+import {basics} from '@cv'
+const {about} = basics
 ---
 
 <Section title="About">
+    <p>{about}</p>
 </Section>
+
+<style>
+    p{
+        font-size: 1rem;
+    }
+</style>
