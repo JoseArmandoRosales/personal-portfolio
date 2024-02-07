@@ -11,7 +11,6 @@ import WorldMap from '@//icons/WorldMap.astro'
 
 const {name, label, image, email, phone, summary, location, profiles} = basics
 const {city, region} = location
-
 const SOCIAL_ICONS: Record<string, any> = {LinkedIn, GitHub}
 ---
 
@@ -24,58 +23,99 @@ const SOCIAL_ICONS: Record<string, any> = {LinkedIn, GitHub}
             <h2>{label}</h2>
             <p>{summary}</p>
             <span class="ciudad"> <span><WorldMap/></span> <span> {city}, {region} </span> </span>
-            <footer>
-                {
-                    email && (
-                        <a 
-                        href={`mailto:${email}`}
-                        title={`Send email to ${name}`}
-                        target="_blank"
-                        rel="sampletext"
-                        > <Mail /> {email}
-                        </a>
-                        
-                    )
-                }
-                {
-                    phone && (
-                        <a 
-                        href={`tel:${phone}`}
-                        title={`Call to ${name} : ${phone}`}
-                        target="_blank"
-                        rel="sampletext"
-                        > <Phone /> {phone}
-                        </a>
-                                    
-                        )
-                }
-                
-            </footer>
-            <footer>
-                {
-                    profiles.map(({network, url, username}) =>{
-                        const Icon = SOCIAL_ICONS[network]
-                        return(
+            <div class="contentSmall">
+                <footer>
+                    {
+                        email && (
                             <a 
-                            href={url}
-                            title={`Visitar el perfil de ${name} en ${network}`}
+                            href={`mailto:${email}`}
+                            title={`Send email to ${name}`}
                             target="_blank"
-                            rel="Sample txt">                        
-                            <span><Icon/></span> <span>{username}</span>
+                            rel="sampletext"
+                            > <Mail />
                             </a>
+                            
                         )
-                    })
-                }
-            </footer>
+                    }
+                    {
+                        phone && (
+                            <a 
+                            href={`tel:${phone}`}
+                            title={`Call to ${name} : ${phone}`}
+                            target="_blank"
+                            rel="sampletext"
+                            > <Phone />
+                            </a>
+                                        
+                            )
+                    }
+                    {
+                        profiles.map(({network, url, username}) =>{
+                            const Icon = SOCIAL_ICONS[network]
+                            return(
+                                <a 
+                                href={url}
+                                title={`Visitar el perfil de ${name} en ${network}`}
+                                target="_blank"
+                                rel="Sample txt">                        
+                                <span><Icon/></span>
+                                </a>
+                            )
+                        })
+                    }
+                </footer>
+            </div>
+
+            <div class="contentLarge">
+                <footer>
+                    {
+                        email && (
+                            <a 
+                            href={`mailto:${email}`}
+                            title={`Send email to ${name}`}
+                            target="_blank"
+                            rel="sampletext"
+                            > <Mail /> {email}
+                            </a>
+                            
+                        )
+                    }
+                    {
+                        phone && (
+                            <a 
+                            href={`tel:${phone}`}
+                            title={`Call to ${name} : ${phone}`}
+                            target="_blank"
+                            rel="sampletext"
+                            > <Phone /> {phone}
+                            </a>
+                                        
+                            )
+                    }
+                </footer>
+                <footer>
+                    {
+                        profiles.map(({network, url, username}) =>{
+                            const Icon = SOCIAL_ICONS[network]
+                            return(
+                                <a 
+                                href={url}
+                                title={`Visitar el perfil de ${name} en ${network}`}
+                                target="_blank"
+                                rel="Sample txt">                        
+                                <span><Icon/></span> <span>{username}</span>
+                                </a>
+                            )
+                        })
+                    }
+                </footer>
+            </div>
         </div>
 
         <figure>
             <img src={image} alt={name}>
         </figure>
     </div>
-
-
-
 </Section>
 
 <style>
@@ -85,7 +125,6 @@ const SOCIAL_ICONS: Record<string, any> = {LinkedIn, GitHub}
         align-items: center;
         justify-content: space-between;
         gap: 1rem;
-        
     }
     .info{
         display: flex;
@@ -141,4 +180,38 @@ const SOCIAL_ICONS: Record<string, any> = {LinkedIn, GitHub}
         background-color: #E9E4ED;
         
     }
+
+
+    /* Estilos para pantallas grandes */
+@media screen and (min-width: 768px) {
+  .contentSmall {
+    display: none;
+  }
+  .contentLarge {
+    display: block;
+  }
+}
+
+/* Estilos para pantallas pequeñas */
+@media screen and (max-width: 501px) {
+  .contentSmall {
+    display: block;
+  }
+  .container{
+    gap: .5rem;
+  }
+  h1{
+    font-size: 1.6rem
+  }
+  h2{
+    font-size: 1.2rem
+  }
+  img{
+    width: 120px;
+    border-radius: 10%;
+  }
+  .contentLarge {
+    display: none;
+  }
+}
 </style>
