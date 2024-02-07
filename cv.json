@@ -4,7 +4,7 @@
     "label": "Desarrollador Web ",
     "image": "https://media.licdn.com/dms/image/D4E03AQFAo_1tpAR35Q/profile-displayphoto-shrink_400_400/0/1703619198939?e=1712188800&v=beta&t=8BZ7b8rcIYTDwg0A8JvJ7F2DANBINPvdLdOJtCQxvpk",
     "email": "Armando_rosalesr@hotmail.com",
-    "phone": "667 513 3213",
+    "phone": "6675133213",
     "url": "",
     "summary": "En mejora continua, con la visión de entregar productos de calidad.",
     "about":"Desde pequeño nunca he dejado de preguntarme por qué las cosas funcionan como funcionan. Esta curiosidad me ha llevado a sumergirme en múltiples tópicos con el afán de entender lo que me rodea.",
@@ -30,39 +30,50 @@
   },
   "work": [
     {
-      "name": "Company",
-      "position": "President",
-      "url": "https://company.com",
-      "startDate": "2013-01-01",
-      "endDate": "2014-01-01",
-      "summary": "Description…",
+      "name": "Coppel",
+      "position": "Analista de Software",
+      "url": "coppel.com",
+      "startDate": "2023-06-12",
+      "endDate": null,
+      "summary": "Detallar las necesidades del cliente y encontrar puntos de mejoras en el software a desarrollar. Diseñar y prototipar las interfaces a desarrollar. Elaborar contratos y documentación del proyecto.",
       "highlights": [
-        "Started the company"
+        null
+      ]
+    },
+    {
+      "name": "TecNM",
+      "position": "Ingeniero de Software",
+      "url": null,
+      "startDate": "2022-01-20",
+      "endDate": "2023-05-16",
+      "summary": "Implementar un algoritmo seguidor de máxima potencia en un sistema fotovoltaico sobre un microcontrolador de la familia C2000 de Texas Instrument.",
+      "highlights": [
+        null
       ]
     }
   ],
   "volunteer": [
     {
-      "organization": "Organization",
-      "position": "Volunteer",
-      "url": "https://organization.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Description…",
+      "organization": "",
+      "position": "",
+      "url": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
       "highlights": [
-        "Awarded 'Volunteer of the Month'"
+        ""
       ]
     }
   ],
   "education": [
     {
-      "institution": "University",
-      "url": "https://institution.com/",
-      "area": "Software Development",
-      "studyType": "Bachelor",
-      "startDate": "2011-01-01",
-      "endDate": "2013-01-01",
-      "score": "4.0",
+      "institution": "TecNM Campus Culiacan",
+      "url": null,
+      "area": "Ingenieria Electronica",
+      "studyType": "Universidad",
+      "startDate": "2018-06-01",
+      "endDate": "2023-06-01",
+      "score": "9.7",
       "courses": [
         "DB1101 - Basic SQL"
       ]
@@ -95,6 +106,15 @@
   ],
   "skills": [
     {
+      "name": "Astro",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    },
+    {
       "name": "Web Development",
       "level": "Master",
       "keywords": [
@@ -103,6 +123,7 @@
         "JavaScript"
       ]
     }
+    
   ],
   "languages": [
     {
