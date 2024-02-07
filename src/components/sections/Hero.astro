@@ -32,7 +32,7 @@ const SOCIAL_ICONS: Record<string, any> = {LinkedIn, GitHub}
                         title={`Send email to ${name}`}
                         target="_blank"
                         rel="sampletext"
-                        > <Mail /> 
+                        > <Mail /> {email}
                         </a>
                         
                     )
@@ -44,11 +44,14 @@ const SOCIAL_ICONS: Record<string, any> = {LinkedIn, GitHub}
                         title={`Call to ${name} : ${phone}`}
                         target="_blank"
                         rel="sampletext"
-                        > <Phone /> 
+                        > <Phone /> {phone}
                         </a>
                                     
                         )
                 }
+                
+            </footer>
+            <footer>
                 {
                     profiles.map(({network, url, username}) =>{
                         const Icon = SOCIAL_ICONS[network]
