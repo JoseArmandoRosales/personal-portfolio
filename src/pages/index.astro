@@ -8,6 +8,7 @@ import Hero from "@/components/sections/Hero.astro"
 import Projects from "@/components/sections/Projects.astro"
 import Skills from "@/components/sections/Skills.astro"
 import KeyboardManager from "@/components/KeyboardManager.astro"
+import Languages from "@/components/sections/Languages.astro"
 ---
 
 <Layout title="Armando Rosales CV">
@@ -16,8 +17,9 @@ import KeyboardManager from "@/components/KeyboardManager.astro"
 		<About />		
 		<Experience />
 		<Projects />
-		<Education />
 		<Skills />
+		<Languages />
+		<Education />
 	</main>
 
 	<KeyboardManager />
@@ -33,6 +35,12 @@ import KeyboardManager from "@/components/KeyboardManager.astro"
 	@media screen and (max-width: 501px){
 		main{
 			padding: 1rem;
+		}
+	}
+
+	@media print {
+		main{
+			padding: 0rem 2rem;
 		}
 	}
 </style>

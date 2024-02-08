@@ -41,7 +41,7 @@ const SOCIAL_ICONS: Record<string, any> = {LinkedIn, GitHub}
                         phone && (
                             <a 
                             href={`tel:${phone}`}
-                            title={`Call to ${name} : ${phone}`}
+                            title={`Call to ${name}: ${phone}`}
                             target="_blank"
                             rel="sampletext"
                             > <Phone />
@@ -130,7 +130,6 @@ const SOCIAL_ICONS: Record<string, any> = {LinkedIn, GitHub}
         display: flex;
         flex-direction: column;
         gap: 0.5rem;
-        padding-right: 32px;
     }
     .ciudad{
         font-size: .85rem;
@@ -162,7 +161,8 @@ const SOCIAL_ICONS: Record<string, any> = {LinkedIn, GitHub}
     footer{
         display: flex;
         flex-direction: row;
-        gap: 5px;        
+        gap: 5px;
+        margin-bottom: 5px;
     }
     a{
         display: flex;
@@ -185,6 +185,15 @@ const SOCIAL_ICONS: Record<string, any> = {LinkedIn, GitHub}
     /* Estilos para pantallas grandes */
 @media screen and (min-width: 768px) {
   .contentSmall {
+    display: none;
+  }
+  .contentLarge {
+    display: block;
+  }
+}
+
+@media print {
+    .contentSmall {
     display: none;
   }
   .contentLarge {

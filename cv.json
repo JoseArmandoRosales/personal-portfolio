@@ -75,16 +75,16 @@
       "endDate": "2023-06-01",
       "score": "9.7",
       "courses": [
-        "DB1101 - Basic SQL"
+        null
       ]
     }
   ],
   "awards": [
     {
-      "title": "Award",
-      "date": "2014-11-01",
-      "awarder": "Company",
-      "summary": "There is no spoon."
+      "title": null,
+      "date": null,
+      "awarder": null,
+      "summary": null
     }
   ],
   "certificates": [
@@ -97,65 +97,91 @@
   ],
   "publications": [
     {
-      "name": "Publication",
-      "publisher": "Company",
-      "releaseDate": "2014-10-01",
-      "url": "https://publication.com",
-      "summary": "Description…"
+      "name": null,
+      "publisher": null,
+      "releaseDate": null,
+      "url": null,
+      "summary": null
     }
   ],
   "skills": [
     {
-      "name": "Astro",
-      "level": "Master",
-      "keywords": [
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ]
+      "name": "JavaScript",
+      "level": null,
+      "keywords": [null]
     },
     {
-      "name": "Web Development",
-      "level": "Master",
-      "keywords": [
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ]
+      "name": "NodeJS",
+      "level": null,
+      "keywords": [null]
+    },    
+    {
+      "name": "Astro",
+      "level": null,
+      "keywords": [null]
+    },    
+    {
+      "name": "MySQL",
+      "level": null,
+      "keywords": [null]
+    },    
+    {
+      "name": "Git",
+      "level": null,
+      "keywords": [null]
+    },
+    {
+      "name": "C",
+      "level": null,
+      "keywords": [null]
     }
-    
   ],
   "languages": [
     {
       "language": "English",
-      "fluency": "Native speaker"
+      "fluency": "B2 TOEFL"
+    },
+    {
+      "language": "Español",
+      "fluency": "Nativo"
     }
   ],
   "interests": [
     {
-      "name": "Wildlife",
-      "keywords": [
-        "Ferrets",
-        "Unicorns"
-      ]
+      "name": null,
+      "keywords": [null]
     }
   ],
   "references": [
     {
-      "name": "Jane Doe",
-      "reference": "Reference…"
+      "name": null,
+      "reference": null
     }
   ],
   "projects": [
     {
-      "name": "Project",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
+      "name": "MPPT",
+      "startDate": "2023-01-6",
+      "endDate": "2023-04-23",
+      "description": "Algoritmo MPPT (Maximum Power Point Tracker) implementado en un sistema fotovoltaico.",
+      "highlights": ["C","Texas Instrument","Fotovoltaico","asd","asd"],
+      "url": "https://github.com/JoseArmandoRosales/MPPT"
+    },
+    {
+      "name": "MPPT",
+      "startDate": "2023-01-6",
+      "endDate": "2023-04-23",
       "description": "Description...",
-      "highlights": [
-        "Won award at AIHacks 2016"
-      ],
-      "url": "https://project.com/"
+      "highlights": ["null","asd"],
+      "url": "https://github.com/JoseArmandoRosales/MPPT"
+    },
+    {
+      "name": "MPPT",
+      "startDate": "2023-01-6",
+      "endDate": "2023-04-23",
+      "description": "Algoritmo ",
+      "highlights": ["null","asd"],
+      "url": "https://github.com/JoseArmandoRosales/MPPT"
     }
   ]
 }
