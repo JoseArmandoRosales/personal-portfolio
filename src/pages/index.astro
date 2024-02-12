@@ -7,11 +7,14 @@ import Experience from "@/components/sections/Experience.astro"
 import Hero from "@/components/sections/Hero.astro"
 import Projects from "@/components/sections/Projects.astro"
 import Skills from "@/components/sections/Skills.astro"
-import KeyboardManager from "@/components/KeyboardManager.astro"
 import Languages from "@/components/sections/Languages.astro"
+
+import {basics} from "@cv"
+
+const {name} = basics
 ---
 
-<Layout title="Armando Rosales CV">
+<Layout title={`${name} CV`}>
 	<main>
 		<Hero />
 		<About />		
@@ -21,8 +24,6 @@ import Languages from "@/components/sections/Languages.astro"
 		<Languages />
 		<Education />
 	</main>
-
-	<KeyboardManager />
 </Layout>
 
 <style>
