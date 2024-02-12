@@ -4,7 +4,7 @@
     "label": "Desarrollador Web ",
     "image": "https://media.licdn.com/dms/image/D4E03AQFAo_1tpAR35Q/profile-displayphoto-shrink_400_400/0/1703619198939?e=1712188800&v=beta&t=8BZ7b8rcIYTDwg0A8JvJ7F2DANBINPvdLdOJtCQxvpk",
     "email": "Armando_rosalesr@hotmail.com",
-    "phone": "6675133213",
+    "phone": "667 513 3213",
     "url": "",
     "summary": "En mejora continua, con la visión de entregar productos de calidad.",
     "about":"Desde pequeño nunca he dejado de preguntarme por qué las cosas funcionan como funcionan. Esta curiosidad me ha llevado a sumergirme en múltiples tópicos con el afán de entender lo que me rodea.",
@@ -164,24 +164,24 @@
       "startDate": "2023-01-6",
       "endDate": "2023-04-23",
       "description": "Algoritmo MPPT (Maximum Power Point Tracker) implementado en un sistema fotovoltaico.",
-      "highlights": ["C","Texas Instrument","Fotovoltaico","asd","asd"],
+      "highlights": ["C","MCUs","Real-Time Control"],
       "url": "https://github.com/JoseArmandoRosales/MPPT"
     },
     {
-      "name": "MPPT",
+      "name": "PlaceHolder",
       "startDate": "2023-01-6",
       "endDate": "2023-04-23",
       "description": "Description...",
-      "highlights": ["null","asd"],
-      "url": "https://github.com/JoseArmandoRosales/MPPT"
+      "highlights": ["",""],
+      "url": null
     },
     {
-      "name": "MPPT",
+      "name": "PlaceHolder",
       "startDate": "2023-01-6",
       "endDate": "2023-04-23",
-      "description": "Algoritmo ",
-      "highlights": ["null","asd"],
-      "url": "https://github.com/JoseArmandoRosales/MPPT"
+      "description": "Description...",
+      "highlights": ["",""],
+      "url": null
     }
   ]
 }
