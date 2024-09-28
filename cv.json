@@ -1,13 +1,13 @@
 {
   "basics": {
     "name": "Armando Rosales",
-    "label": "Desarrollador Web ",
-    "image": "./src/images/personal photo.jfif",
+    "label": "Desarrollador Web - BackEnd",
+    "image": "./src/images/foto.jpg",
     "email": "Armando_rosalesr@hotmail.com",
     "phone": "667 513 3213",
     "url": "",
-    "summary": "En mejora continua, con la visión de entregar productos de calidad.",
-    "about":"Desde pequeño nunca he dejado de preguntarme por qué las cosas funcionan como funcionan. Esta curiosidad me ha llevado a sumergirme en múltiples tópicos con el afán de entender lo que me rodea.",
+    "summary": "Comprometido a construir sistemas robustos y mantenibles, para asegurar la experiencia del usuario.",
+    "about":"Una de mis cualidades es ser autodidacta, esto me ha permitido trabajar en múltiples proyectos que requieren de diferentes tecnologías y enfoques, adaptarme a nuevos desafíos y entornos, y mantener una mentalidad ágil y flexible, siempre lista para aprender y mejorar.",
     "location": {
       "address": "",
       "postalCode": "", 
@@ -35,7 +35,7 @@
       "url": "coppel.com",
       "startDate": "2023-06-12",
       "endDate": null,
-      "summary": "Además de las actividades del rol de un Analista, buena parte de mi tiempo he estado involucrado en proyectos donde he utilizado mis habilidades para mantener y diagnosticar problemas en los servidores del Circuito de Inversiones. He trabajado en conjunto con las áreas de Linux y Telecomunicaciones para el óptimo funcionamiento de estos sistemas.",
+      "summary": "Además de las actividades del rol de un analista, buena parte de mi tiempo he estado involucrado en proyectos donde he utilizado mis habilidades para mantener y diagnosticar problemas en los servidores del Circuito de Inversiones de AFORE. He trabajado en conjunto con las áreas de Linux y Telecomunicaciones para el óptimo funcionamiento de estos sistemas.",
       "highlights": [
         null
       ]
@@ -106,6 +106,11 @@
   ],
   "skills": [
     {
+      "name": "React Native",
+      "level": null,
+      "keywords": [null]
+    },
+    {
       "name": "JavaScript",
       "level": null,
       "keywords": [null]
@@ -116,12 +121,17 @@
       "keywords": [null]
     },    
     {
-      "name": "Astro",
+      "name": "Express",
       "level": null,
       "keywords": [null]
-    },    
+    },
     {
-      "name": "MySQL",
+      "name": "PostgreSQL",
+      "level": null,
+      "keywords": [null]
+    },
+    {
+      "name": "Astro",
       "level": null,
       "keywords": [null]
     },    
@@ -187,6 +197,30 @@
       "description": "Para evitar desarrollar código distinto para la misma aplicación, se optó por usar React Native.",
       "highlights": ["React Native","Expo Go"],
       "url": "https://github.com/JoseArmandoRosales/tamazula-react-native"
+    },
+    {
+      "name": "SIA Aladdin",
+      "startDate": "2023-05-02",
+      "endDate": "2023-06-25",
+      "description": "Corazón del Circuito de Inversiones, tengo responsabiidades de su correcto funcionamiento.",
+      "highlights": ["Gestión de Proyectos","Soporte"],
+      "url": ""
+    },
+    {
+      "name": "DRP Inversiones",
+      "startDate": "2023-05-02",
+      "endDate": "2023-06-25",
+      "description": "Lider de Proyecto, gestor de la configuración entre los diferentes servidores.",
+      "highlights": ["Gestión de Proyectos","Linux", "Telecomm"],
+      "url": ""
+    },
+    {
+      "name": "Aurolog -> ACTUM",
+      "startDate": "2023-05-02",
+      "endDate": "2023-06-25",
+      "description": "Cambio del antiguo grabador de llamadas del área de Inversiones a un proveedor nuevo.",
+      "highlights": ["Acompañamiento"],
+      "url": ""
     }
   ]
 }
