@@ -2,7 +2,7 @@
   "basics": {
     "name": "Armando Rosales",
     "label": "Desarrollador Web ",
-    "image": "https://media.licdn.com/dms/image/D4E03AQFAo_1tpAR35Q/profile-displayphoto-shrink_400_400/0/1703619198939?e=1712188800&v=beta&t=8BZ7b8rcIYTDwg0A8JvJ7F2DANBINPvdLdOJtCQxvpk",
+    "image": "./src/images/personal photo.jfif",
     "email": "Armando_rosalesr@hotmail.com",
     "phone": "667 513 3213",
     "url": "",
@@ -35,7 +35,7 @@
       "url": "coppel.com",
       "startDate": "2023-06-12",
       "endDate": null,
-      "summary": "Detallar las necesidades del cliente y encontrar puntos de mejoras en el software a desarrollar. Diseñar y prototipar las interfaces a desarrollar. Elaborar contratos y documentación del proyecto.",
+      "summary": "Además de las actividades del rol de un Analista, buena parte de mi tiempo he estado involucrado en proyectos donde he utilizado mis habilidades para mantener y diagnosticar problemas en los servidores del Circuito de Inversiones. He trabajado en conjunto con las áreas de Linux y Telecomunicaciones para el óptimo funcionamiento de estos sistemas.",
       "highlights": [
         null
       ]
@@ -134,6 +134,11 @@
       "name": "C",
       "level": null,
       "keywords": [null]
+    },
+    {
+      "name": "Java",
+      "level": null,
+      "keywords": [null]
     }
   ],
   "languages": [
@@ -168,20 +173,20 @@
       "url": "https://github.com/JoseArmandoRosales/MPPT"
     },
     {
-      "name": "PlaceHolder",
-      "startDate": "2023-01-6",
-      "endDate": "2023-04-23",
-      "description": "Description...",
-      "highlights": ["",""],
-      "url": null
+      "name": "API Tamazula",
+      "startDate": "2024-01-13",
+      "endDate": "2024-04-23",
+      "description": "Desarrollada para llevar el control de las rentas de un negocio de lavadoras.",
+      "highlights": ["JavaScript","Express", "FL0", "PostgreSQL"],
+      "url": "https://github.com/JoseArmandoRosales/restApiTamazula"
     },
     {
-      "name": "PlaceHolder",
-      "startDate": "2023-01-6",
-      "endDate": "2023-04-23",
-      "description": "Description...",
-      "highlights": ["",""],
-      "url": null
+      "name": "TamazulAPP",
+      "startDate": "2023-05-02",
+      "endDate": "2023-06-25",
+      "description": "Para evitar desarrollar código distinto para la misma aplicación, se optó por usar React Native.",
+      "highlights": ["React Native","Expo Go"],
+      "url": "https://github.com/JoseArmandoRosales/tamazula-react-native"
     }
   ]
 }
