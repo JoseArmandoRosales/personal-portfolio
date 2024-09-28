@@ -6,8 +6,8 @@
     "email": "Armando_rosalesr@hotmail.com",
     "phone": "667 513 3213",
     "url": "",
-    "summary": "Comprometido a construir sistemas robustos y mantenibles, para asegurar la experiencia del usuario.",
-    "about":"Una de mis cualidades es ser autodidacta, esto me ha permitido trabajar en múltiples proyectos que requieren de diferentes tecnologías y enfoques, adaptarme a nuevos desafíos y entornos, y mantener una mentalidad ágil y flexible, siempre lista para aprender y mejorar.",
+    "summary": "Comprometido a construir sistemas robustos y mantenibles, para asegurar la mejor experiencia de usuario.",
+    "about":"Una de mis cualidades es ser autodidacta, esto me ha permitido trabajar en múltiples proyectos que exigen el conocimiento de diferentes tecnologías y enfoques. Me adapto a cada desafío, siempre manteniendo una mentalidad ágil y flexible, lista para aprender y mejorar.",
     "location": {
       "address": "",
       "postalCode": "", 
@@ -67,9 +67,9 @@
   ],
   "education": [
     {
-      "institution": "TecNM Campus Culiacan",
+      "institution": "TecNM Campus Culiacán",
       "url": null,
-      "area": "Ingenieria Electronica",
+      "area": "Ingeniería Electrónica",
       "studyType": "Universidad",
       "startDate": "2018-06-01",
       "endDate": "2023-06-01",
@@ -203,8 +203,8 @@
       "startDate": "2023-05-02",
       "endDate": "2023-06-25",
       "description": "Corazón del Circuito de Inversiones, tengo responsabiidades de su correcto funcionamiento.",
-      "highlights": ["Gestión de Proyectos","Soporte"],
-      "url": ""
+      "highlights": ["Gestión de Proyectos","Soporte", "Linux"],
+      "url": "https://coppel.blackrock.com"
     },
     {
       "name": "DRP Inversiones",
@@ -212,7 +212,7 @@
       "endDate": "2023-06-25",
       "description": "Lider de Proyecto, gestor de la configuración entre los diferentes servidores.",
       "highlights": ["Gestión de Proyectos","Linux", "Telecomm"],
-      "url": ""
+      "url": "https://drive.google.com/file/d/11mWsgAZEDXjjy13QhLSUprJdeimKp7ix/"
     },
     {
       "name": "Aurolog -> ACTUM",
